@@ -1,0 +1,37 @@
+
+Etapes du projet 1
+
+
+Je commence par créer la structure html.
+
+J'ai essayé de définir le nombre de DIV à créer:
+
+DIV 1er bloc contenant une img ; un p ; un input button
+
+DIV menu : nav ; ul ; li x5 ;
+
+DIV titre h1 ; h2 
+
+DIV profil img <p> avec <br> ; input button
+
+DIV img;
+
+DIV ONEZERO : p ; input button
+
+DIV logos IMGx4 
+
+DIV texte ; sections ; img ; p ; h3 ; quote;
+
+DIV travel nav ; ul ; li x5 ;
+
+DIV Harry & Zero
+
+DIV Pub
+
+Je définirai certains éléménents en CSS pour avoir un rendu afin de vérifier si mon html est correct et notament pour avoir un visuel sur le placement des blocs et images.
+
+Je m'occuperai du style en dernier.
+
+
+
+
