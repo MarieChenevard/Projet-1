@@ -19,19 +19,18 @@ body{
 #sign{
   float: right;
   margin-right: 200px;
-  color: purple;
+  color: #B681F2;
   margin-top: 5px;
 }
 
 #getstarted {
-  border: 2px solid purple;
+  border: 1px solid #B681F2;
   padding:10px;
   margin-left: 3px;
-
   justify-content: space-around;
   border-radius: 10px;
   text-decoration: none;
-  color:purple;
+  color:#B681F2;
 
 }
 
@@ -106,7 +105,7 @@ h1{
   display: inline-block;
 }
 
-#photoharry{
+#photoharry {
   height: 40px;
   width: 40px;
   border-radius: 50px;
@@ -124,16 +123,24 @@ h1{
   position: absolute;
   right: 1114px;
   top:433px;
-  border: 2px solid purple;
+  border: 1px solid #B681F2;
   margin: 20px;
   justify-content: space-around;
   border-radius: 5px;
   text-decoration: none;
-  color:purple;
+  color:#B681F2;
   background-color: white;
 }
 
 #y {
+  height: 100px;
+  width: 100px;
+  border-radius: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float:left;
+  margin: 10px;
   font-size: 70px;
   background-color: black;
   color:white;
@@ -143,15 +150,86 @@ h1{
   padding-left: 450px;
   padding-right: 450px;
   font-size: 29px;
+  color: #373539;
 
 }
-
-#instagram {
-  padding-left: 200px;
-  padding-right: 200px;
+blockquote{
+  font-family: georgia;
+  font-size: 35px;
+  font-style: italic;
+  line-height: 80px;
+  padding: 10px;
 }
 
-#pub {
-  padding-left: 200px;
-  padding-right: 200px;
+
+#instagram{
+
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  justify-content: space-around;
+  border-top: 1px, solid, #B9B8B8;
+}
+
+#instarry{
+
+  width:50%;
+  font-size: 16px;
+}
+
+#photo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  float:left;
+  margin-top: 15px;
+}
+
+.instatext {
+  line-height: 20px;
+  padding-left: 65px;
+}
+.instatext2 {
+  line-height: 20px;
+  padding-left: 65px;
+}
+#ozz{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-top: 15px;
+}
+#instazero{
+  width:50%;
+  font-size: 16px;
+}
+
+.instab {
+  border: 1px solid #B681F2;
+  padding:10px;
+  margin-left: 3px;
+  justify-content: space-around;
+  border-radius: 10px;
+  text-decoration: none;
+  color:#B681F2;
+  background-color: white;
+
+
+}
+.instab2 {
+  border: 1px solid #B681F2;
+  padding:10px;
+  margin-left: 3px;
+  justify-content: space-around;
+  border-radius: 10px;
+  text-decoration: none;
+  color:#B681F2;
+  background-color: white;
+
+
+}
+footer{
+  width: 100%;
+
 }
