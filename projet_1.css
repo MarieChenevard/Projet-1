@@ -16,6 +16,7 @@ body{
   margin-left: 200px;
   padding-top: 4px;
 }
+/* sign in link */
 #sign{
   float: right;
   margin-right: 200px;
@@ -23,6 +24,7 @@ body{
   margin-top: 5px;
 }
 
+/* get started button */
 #getstarted {
   border: 1px solid #B681F2;
   padding:10px;
@@ -119,6 +121,15 @@ h1{
   float:inherit;
 }
 
+#date{
+  font-family: georgia;
+  color: 	#B9B8B8;
+  line-height: 15px;
+  margin-top: -10px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+/* bouton follow Harry */
 #butharry{
   position: absolute;
   right: 1114px;
@@ -132,6 +143,7 @@ h1{
   background-color: white;
 }
 
+
 #y {
   height: 100px;
   width: 100px;
@@ -144,15 +156,23 @@ h1{
   font-size: 70px;
   background-color: black;
   color:white;
+  font-family: georgia;
 }
 
 #bloc-four {
+  padding-top: 50px;
   padding-left: 450px;
   padding-right: 450px;
   font-size: 29px;
   color: #373539;
+  font-family: georgia;
 
 }
+
+.underline{
+  text-decoration: underline;
+}
+
 blockquote{
   font-family: georgia;
   font-size: 35px;
@@ -161,23 +181,41 @@ blockquote{
   padding: 10px;
 }
 
+#bloc-five {
+  padding-left: 380px;
+  padding-right: 450px;
+  margin-bottom: 60px;
+}
 
+/* liens bas article */
+.liens
+{
+  background-color: #EAEAEA;
+  color: black;
+  font-family: georgia;
+  padding: 5px;
+
+}
+
+/* div englobant les instas de Harry et OneZero */
 #instagram{
 
   margin:auto;
   display: flex;
   flex-direction: row;
-  padding: 2px;
+  padding-left: 450px;
+  padding-right: 450px;
   justify-content: space-around;
   border-top: 1px, solid, #B9B8B8;
 }
-
+/* insta Harry */
 #instarry{
 
   width:50%;
   font-size: 16px;
 }
 
+/* photo insta Harry */
 #photo {
   height: 50px;
   width: 50px;
@@ -185,26 +223,46 @@ blockquote{
   float:left;
   margin-top: 15px;
 }
+.instatitre{
+  padding-left: 65px;
+  font-weight: bold;
+  font-family: georgia;
+  margin-top: 0px;
+}
 
+/* texte insta*/
 .instatext {
   line-height: 20px;
   padding-left: 65px;
+  font-family: georgia;
+  margin-top: -10px;
 }
-.instatext2 {
-  line-height: 20px;
+
+/* ligne member since... */
+.member{
+  font-family: georgia;
+  color: 	#B9B8B8;
   padding-left: 65px;
+  line-height: 15px;
+  margin-top: -20px;
 }
+
+
+/* photo insta OneZero */
 #ozz{
   width: 50px;
   height: 50px;
   float: left;
   margin-top: 15px;
 }
+
+/* insta OneZero */
 #instazero{
   width:50%;
   font-size: 16px;
 }
 
+/* bouton follow insta Harry */
 .instab {
   border: 1px solid #B681F2;
   padding:10px;
@@ -214,9 +272,12 @@ blockquote{
   text-decoration: none;
   color:#B681F2;
   background-color: white;
-
-
+  position:relative;
+  top:-135px;
+  left:250px;
 }
+
+/* bouton follow insta OneZero */
 .instab2 {
   border: 1px solid #B681F2;
   padding:10px;
@@ -226,10 +287,91 @@ blockquote{
   text-decoration: none;
   color:#B681F2;
   background-color: white;
+  position:relative;
+  top:-130px;
+  left:250px;
+}
+
+
+footer{
+  width: 100%;
+  background-color: #F7F7F7;
+  padding: 0px;
+  margin:0px;
+}
+
+#pub {
+  margin-top: 50px;
+  display : flex;
+  flex-direction: row;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 40px;
+  justify-content:space-around;
+}
+
+#amazon {
+  width:30%;
+  display: flex;
+  border-radius: 5%;
+  flex-direction:column;
+  justify-content:flex-start;
+  box-sizing:border-box;
+  background-color: white;
+
+}
+
+/* photo pub amazon */
+#amaz{
+  width: 100%;
+}
+
+#airlines {
+  width:30%;
+  display: flex;
+  border-radius: 5%;
+  flex-direction:column;
+  justify-content: flex-start;
+  box-sizing:border-box;
+  background-color: white;
 
 
 }
-footer{
-  width: 100%;
 
+/* photo pub airlines */
+#air{
+  width: 100%;
+}
+
+#libra {
+  width:30%;
+  display: flex;
+  border-radius: 5%;
+  flex-direction:column;
+  justify-content: flex-start;
+  box-sizing:border-box;
+  background-color: white;
+}
+
+/* photo pub libra */
+#lib{
+width: 100%;
+}
+
+/* Sous titre pub */
+.mfoz{
+  font-family: georgia;
+  color: 	#B9B8B8;
+  margin-left: 10px;
+  padding-left: 15px;
+}
+
+.pubtitle{
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 10px;
+  padding-left: 15px;
+  line-height: 20px;
+  margin-top: -10px;
 }
